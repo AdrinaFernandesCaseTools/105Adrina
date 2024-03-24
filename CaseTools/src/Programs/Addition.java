@@ -5,7 +5,7 @@ public class Addition {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int x, y, sum;
+		int x , y, sum;
 		Scanner myObj = new Scanner(System.in); // Create a Scanner object 
 		System.out.println("Enter the number:");
 		x = myObj.nextInt(); // Read user input
@@ -19,5 +19,14 @@ public class Addition {
 
 
 	}
+
+	public static int add(int x, int y) {
+		
+		return x+y;
+	}
+
+	
+	
+	
 
 }
